@@ -1,0 +1,28 @@
+.box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box > .input {
+    margin: .5em;
+}
+
+.box > .output {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pallet {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+}
+
+.rgbText {
+    width: 100px;
+    height: 20px;
+}
